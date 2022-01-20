@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="flex justify-content-center">
-          <div class="intro-grid pt-8">
+          <div class="intro-grid pt-8" style="max-width: 64rem">
             <div class="card">
               <div><input type="button" value="button" /></div>
               <div class="text-2xl pt-4 font-display">Button</div>
@@ -185,7 +185,10 @@
             <div class="card card-width ml-2">
               <div class="text-8xl font-light font-display">2008</div>
               <p class="pt-4 text-lg">
-                HTML5 wird der Öffentlichkeit vorgestellt.
+                <a href="https://www.w3.org/TR/2009/WD-html5-20090825/"
+                  >HTML5</a
+                >
+                wird der Öffentlichkeit vorgestellt.
               </p>
               <p>
                 Die Verbreitung des Browserplugins Flash und der damit
@@ -208,8 +211,11 @@
             <div class="card card-width ml-2">
               <div class="text-8xl font-light font-display">2019</div>
               <p class="pt-4 text-lg">
-                W3C übergibt die HTML-Entwicklung an die Web Hypertext
-                Application Technology Working Group (WHATWG)
+                W3C übergibt die HTML-Entwicklung an die
+                <a href="https://whatwg.org/"
+                  >Web Hypertext Application Technology Working Group
+                  (WHATWG)</a
+                >
               </p>
               <p>
                 Unterstützt durch Organisationen wie Mozilla, Opera und Apple
@@ -356,6 +362,21 @@
             >
           </div>
         </div>
+        <div class="pt-8 flex flex-wrap justify-content-center">
+          <div class="w-100">
+            <div class="flex flex-wrap justify-content-center">
+              <div style="max-width: 720px">
+                <audio controls src="assets/100secs.mp3"></audio>
+              </div>
+            </div>
+          </div>
+          <div class="pt-4">
+            <code
+              >&lt;audio
+              src=&quot;assets/100secs.mp3&quot;&gt;&lt;/audio&gt;</code
+            >
+          </div>
+        </div>
       </div>
     </main>
     <footer>
@@ -375,10 +396,7 @@
             >
           </li>
         </ul>
-        <div>
-          Diese Webseite dient ausschließlich zu Schulungszwecken. © 2022
-          Philipp Friedrich
-        </div>
+        <div>Diese Webseite dient ausschließlich zu Bildungszwecken.</div>
       </div>
     </footer>
   </body>
