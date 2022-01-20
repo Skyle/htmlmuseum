@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Historisches HTML-Museum</title>
+  </head>
+  <body>
+    <header class="flex align-item-center font-display">
+      <div class="logo">
+        <a href="/"><img src="assets/html5logo.svg" alt="" /></a>
+      </div>
+      <div class="logo-text flex-grow">
+        <div>Historisches</div>
+        <div>HTML</div>
+        <div>Museum</div>
+      </div>
+    </header>
+    <main>
+      <div>
+        <div
+          class="intro-pic-container text-center font-display text-bright flex flex-wrap justify-content-center"
+        >
+          <div class="text-4xl pt-8 pb-8">
+            Willkommen auf der Webseite des Historischen HTML Museums.
+          </div>
+          <div class="text-2xl pt-8 pb-8 underline-intro w-100">
+            Die in HTML implementierte Ausstellung über HTML
+          </div>
+          <div class="pt-8 pb-4 flex justify-content-center w-100">
+            <div class="bcard">
+              Eine umfassende Kollektion über den Werdegang der Hypertext Markup
+              Language. Erstellt um einen der Grundpfeiler moderner
+              Kommunikation auszustellen. Einfach mal drüber schauen!
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-4xl font-display pb-8 pt-16 font-display">
+          Die Interaktiven Drei
+        </div>
+        <div class="flex justify-content-center">
+          <div style="max-width: 36rem">
+            Die Möglichkeit Eingaben zu tätigen ist eine Grundvorraussetzung des
+            modernen Internets. Schon mit HTML 2 eingefüht bietet uns das
+            input-tag viele Möglichkeiten mit anderen Computern über unseren
+            Browser zu kommunizieren.
+          </div>
+        </div>
+        <div class="flex justify-content-center">
+          <div class="intro-grid pt-8">
+            <div class="card">
+              <div><input type="button" value="button" /></div>
+              <div class="text-2xl pt-4 font-display">Button</div>
+              <code
+                >&lt;input type=&quot;button&quot; value=&quot;button&quot;
+                /&gt;</code
+              >
+              <div class="pt-4">
+                Klicken und warten bis etwas passiert. Der Button ist der
+                Klassiker wenn es darum geht Aktionen zu starten.
+              </div>
+            </div>
+            <div class="card">
+              <div><input type="text" /></div>
+              <div class="text-2xl pt-4 font-display">Input</div>
+
+              <code>&lt;input type=&quot;text&quot; /&gt;</code>
+              <div class="pt-4">
+                Der An- und Ausschalter (aka. die Checkbox) bietet die einfache
+                Möglichkeit zwischen zwei Zuständen hin und der zu schalten.
+              </div>
+            </div>
+            <div class="card">
+              <div><input type="checkbox" /></div>
+              <div class="text-2xl pt-4 font-display">Checkbox</div>
+              <code>&lt;input type=&quot;checkbox&quot; /&gt;</code>
+              <div></div>
+              <div class="pt-4">
+                Der An- und Ausschalter (aka. die Checkbox) bietet die einfache
+                Möglichkeit zwischen zwei Zuständen hin und der zu schalten.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-16">
+        <div class="text-4xl text-center font-display">Zeitstrahl</div>
+        <div class="flex pt-8 overflower">
+          <div>
+            <div class="card card-width">
+              <div class="text-8xl font-light font-display">1991</div>
+              <p class="pt-4 text-lg">
+                Tim Berners-Lee vom CERN stellt ein Dokument mit dem Titel "HTML
+                Tags" vor.
+              </p>
+              <p>
+                Dort führt er die ersten 18 Tags ein und legt fest, dass diese
+                mit
+
+                <code style="display: inline">&lt;</code>
+                beginnen und mit
+                <code style="display: inline">&gt;</code> enden.
+              </p>
+              <p>11 von diesen Tags sind heute noch in Benutzung.</p>
+              <div>
+                <a href="http://info.cern.ch/hypertext/WWW/MarkUp/Tags.html"
+                  >HTML Tags auf info.cern.ch</a
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card card-width ml-2">
+              <div class="text-8xl font-light font-display">1995</div>
+              <p class="pt-4 text-lg">
+                HTML wurde in der Version 2 von der
+                <a href="https://www.ietf.org/"
+                  >Internet Engineering Task Force</a
+                >
+                zu einem Standard ausgebaut, der es nachfolgenden Versionen
+                ermöglichen sollte leicht Verbesserungen hinzuzufügen.
+              </p>
+
+              <div>
+                <a href="https://datatracker.ietf.org/doc/html/rfc1866"
+                  >Hypertext Markup Language - 2.0</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card card-width ml-2">
+              <div class="text-8xl font-light font-display">1996</div>
+              <p class="pt-4 text-lg">
+                Mittlerweile unter Verwaltung durch das World Wide Web
+                Consortium (W3C) gerät HTML verstärkt in den Fokus kommerzieller
+                Interessen.
+              </p>
+              <p>
+                Dies verhindert, dass in den Folgejahren größere Veränderungen
+                stattfinden können.
+              </p>
+            </div>
+          </div>
+          <div style="flex-grow: 1">
+            <div class="card card-width ml-2">
+              <div class="text-8xl font-light font-display">1997</div>
+              <p class="pt-4 text-lg">
+                HTML 3.2 wird endlich verabschiedet. Man konnte sich lange nicht
+                einigen und mehrere Entwürfe sind im Sande verlaufen.
+              </p>
+              <p class="text-2xl">So langsam wird es bunt</p>
+              <p class="text-lg">
+                CSS erlangt immer mehr an Beliebtheit. Die Browserhersteller
+                wollen ein optisch ansprechendes Internet bieten. Das veranlasst
+                das W3C eine CSS Working Group zu gründen um die
+                Standardisierung voran zu treiben.
+              </p>
+            </div>
+          </div>
+          <div style="flex-grow: 1">
+            <div class="card card-width ml-2">
+              <div class="text-8xl font-light font-display">1998</div>
+              <p class="pt-4 text-lg">
+                HTML 4.0 wird veröffentlicht und bildet die Basis auf der für
+                die nächsten Jahre das WWW errichtet wird.
+              </p>
+              <p>
+                Es erfolgen nur noch kleinere Fehlerkorrekturen in den
+                offiziellen Dokumenten.
+              </p>
+              <p class="text-lg">
+                Die Browserhersteller definieren defacto den Standard und es
+                findet für ungefähr ein Jahrzehnt kein Zusammenkommen mehr
+                statt.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="card card-width ml-2">
+              <div class="text-8xl font-light font-display">2008</div>
+              <p class="pt-4 text-lg">
+                HTML5 wird der Öffentlichkeit vorgestellt.
+              </p>
+              <p>
+                Die Verbreitung des Browserplugins Flash und der damit
+                einhergehenden Abhängigkeit von Adobe veranlasst das W3C sich um
+                einen Standard mit Multimediafunktionalität zu kümmern.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="card card-width ml-2">
+              <div class="text-8xl font-light font-display">2012-14</div>
+              <p class="pt-4 text-lg">HTML5 steht.</p>
+              <p>
+                Man konnte sich auf einen Schwung neuer Tags einigen und war nun
+                bereit eine offizielle Empfehlung auszusprechen.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="card card-width ml-2">
+              <div class="text-8xl font-light font-display">2019</div>
+              <p class="pt-4 text-lg">
+                W3C übergibt die HTML-Entwicklung an die Web Hypertext
+                Application Technology Working Group (WHATWG)
+              </p>
+              <p>
+                Unterstützt durch Organisationen wie Mozilla, Opera und Apple
+                entwickelte das WHATWG über die Jahre einen nahezu identischen
+                Parallelstandard mit ständig aktueller Dokumentation.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="card card-width ml-2">
+              <div class="text-8xl font-light font-display">bis heute</div>
+              <p class="pt-4 text-lg">
+                Der Living Standard des WHATWG bestimmt von nun an die
+                Spezifikation von HTML. Es wird vermutlich keine Versionssprünge
+                mehr geben und stattdessen ein lebender Standard die zukünftige
+                Entwicklung formen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-16">
+        <div class="text-4xl text-center font-display">Die Original-Tags</div>
+        <div class="flex justify-content-center pt-8">
+          <div>
+            <code class="font-display">
+              <ul>
+                <li class="highlight">&lt;A&gt;</li>
+                <li class="highlight">&lt;ADDRESS&gt;</li>
+                <li class="highlight">&lt;BASE&gt;</li>
+                <li class="highlight">&lt;DD&gt;</li>
+                <li>&lt;DIR&gt;</li>
+                <li class="highlight">&lt;DL&gt;</li>
+                <li class="highlight">&lt;DT&gt;</li>
+                <li class="highlight">&lt;H1&gt;,...&lt;H6&gt;</li>
+                <li>&lt;HP1&gt;,...&lt;HP2&gt;,...</li>
+                <li>&lt;ISINDEX&gt;</li>
+                <li class="highlight">&lt;LI&gt;</li>
+                <li>&lt;LISTING&gt;</li>
+                <li>&lt;MENU&gt;</li>
+                <li>&lt;NEXTID&gt;</li>
+                <li>&lt;P&gt;</li>
+                <li>&lt;PLAINTEXT&gt;</li>
+                <li>&lt;TITLE&gt;</li>
+                <li class="highlight">&lt;UL&gt;</li>
+              </ul></code
+            >
+            <div>
+              <span class="dot"></span>
+              <span style="margin-left: 1rem"
+                >Bis heute so verwendete Tags</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-content-center pt-8">
+          <div class="text-lg text-center" style="max-width: 36rem">
+            Ein paar von diesen Tags haben es bis heute geschafft.<br />Andere
+            kommen einem komplett unbekannt vor und wurden mit der Zeit ganz
+            gestrichen oder durch andere Tags ersetzt.
+          </div>
+        </div>
+        <div class="flex justify-content-center pt-8">
+          <div class="text-2xl text-center" style="max-width: 36rem">
+            Schon mal diese Tags benutzt?
+          </div>
+        </div>
+        <div class="flex justify-content-center font-display pt-8">
+          <code style="max-width: 36rem"
+            >&lt;dl&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;dt&gt;Firefox&lt;/dt&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;A free, open source,
+            cross-platform, graphical web browser developed by the Mozilla
+            Corporation and hundreds of volunteers.&lt;/dd&gt;<br />
+            &lt;/dl&gt;</code
+          >
+        </div>
+        <div class="flex justify-content-center font-display pt-8">
+          <code style="max-width: 36rem"
+            ><dl>
+              <dt>Firefox</dt>
+              <dd>
+                A free, open source, cross-platform, graphical web browser
+                developed by the Mozilla Corporation and hundreds of volunteers.
+              </dd>
+
+              <!-- other terms and definitions -->
+            </dl></code
+          >
+        </div>
+      </div>
+      <div class="pt-16">
+        <div class="text-4xl text-center">Multimedia-Tags</div>
+        <div class="flex justify-content-center pt-4">
+          <div style="max-width: 36rem">
+            Durch die Verlagerung des Medienkonsums aus den klassischen Medien
+            hin zum Internet gab es immer mehr Bedarf danach Inhalte im Browser
+            zu konsumieren.
+          </div>
+        </div>
+        <div class="flex justify-content-center pt-8">
+          <div style="max-width: 48rem">
+            <div class="flex flex-wrap">
+              <div style="width: 50%">
+                <img src="assets/FlashPlayer_2013.png" alt="" />
+              </div>
+              <div style="width: 50%; padding: 2rem">
+                Lange Zeit war der Adobe Flash Player der De-Facto-Standard der
+                Multimediawiedergabe im World Wide Web.
+                <div class="pt-4">
+                  Allerdings liegt es Nahe, dass man so Grundlegendes nicht
+                  einer einzigen Firma überlassen sollte. So hat man sich spät
+                  in dem Heranwachsen des WWWs doch noch dazu durchringen können
+                  einen neuen Standard zu HTML hinzuzufügen.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-content-center pt-8">
+          <div style="max-width: 36rem">
+            Mit HTML5 wurden zwei wichtige Multimediafunktionalitäten
+            standardisiert. <br />
+            Mit den beiden Tags
+            <code style="display: inline">&lt;video&gt;</code> und
+            <code style="display: inline">&lt;audio&gt;</code> gab es ab sofort
+            die Möglichkeit für jeden Browser auch ohne externe PlugIns
+            Bewegtbilder und Ton abspielen zu lassen.
+          </div>
+        </div>
+        <div class="pt-8 flex flex-wrap justify-content-center">
+          <div class="w-100">
+            <div class="flex flex-wrap justify-content-center">
+              <div style="max-width: 720px">
+                <video controls src="assets/100secs.webm"></video>
+              </div>
+            </div>
+          </div>
+          <div class="pt-4">
+            <code
+              >&lt;video controls
+              src=&quot;assets/100secs.webm&quot;&gt;&lt;/video&gt;</code
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h2 class="text-2xl">Der Footer</h2>
+
+        <ul>
+          <li>
+            <a
+              href="http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html"
+              >HTML Tags: Past, Present, Proposed</a
+            >
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/HTML#History"
+              >HTML-History</a
+            >
+          </li>
+        </ul>
+        <div>
+          Diese Webseite dient ausschließlich zu Schulungszwecken. © 2022
+          Philipp Friedrich
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+/*
+init & reset
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fffbeb;
+  color: #171717;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: #f59e0b;
+}
+
+/* 
+Header
+*/
+
+header {
+  padding: 1rem 0rem;
+}
+
+.logo {
+  height: 64px;
+  width: 64px;
+}
+
+/* 
+Main
+*/
+
+main {
+  padding: 0rem 1rem;
+}
+
+.bcard {
+  max-width: 720px;
+  border: 2px solid #fbbf24;
+  border-radius: 4px;
+  padding: 2rem;
+  background-color: #17171750;
+}
+
+.underline-intro {
+  text-decoration: underline;
+  text-decoration-color: #fbbf24;
+}
+
+.intro-pic-container {
+  background-image: url("../assets/museum.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 4rem;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 1rem;
+}
+
+video {
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  .intro-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: white;
+  border: 2px transparent solid;
+  transition: border 500ms ease-in-out 100ms;
+}
+
+.card:hover {
+  border: 2px #f59f0b8c solid;
+}
+
+.card-width {
+  width: 24rem;
+}
+
+.overflower {
+  overflow-x: scroll;
+}
+
+/* 
+Footer
+*/
+
+footer {
+  margin-top: 4rem;
+  border-top: 2px solid #fbbf24;
+  background-color: #fef3c7;
+}
+
+footer > div {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+/*
+Helper Classes
+*/
+
+.highlight {
+  color: #fbbf24;
+}
+
+.dot {
+  background-color: #fbbf24;
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-bright {
+  color: #fffbeb;
+}
+
+.font-display {
+  font-family: "Fira Code", monospace;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex-grow {
+  flex-grow: 10;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+/* 
+Pedestral 
+*/
